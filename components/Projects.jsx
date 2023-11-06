@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
+import Image from 'next/image';
 import 'aos/dist/aos.css';
 
 function Projects() {
@@ -22,7 +23,7 @@ function Projects() {
         Explore some of my latest projects below. These projects showcase innovative architecture and design solutions.
         </p>
 
-        <img
+        <Image width="0"  height="0" sizes="100vw"  
           src="project.gif"
           alt="Project Image"
           className="max-w-full h-72"

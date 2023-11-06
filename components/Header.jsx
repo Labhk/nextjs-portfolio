@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-scroll';
+import Image from 'next/image';
 
 function Header() {
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -36,7 +37,7 @@ function Header() {
                     <Link
                         to="hero-section"
                         smooth={true} className="flex items-center cursor-pointer">
-                        <img
+                        <Image width="0"  height="0" sizes="100vw"  
                             src="/logo.png"
                             className="h-12 mr-3"
                             alt="Flowbite Logo"

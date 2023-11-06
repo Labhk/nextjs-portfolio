@@ -3,7 +3,6 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 import Image from 'next/image';
 
-
 function ProjectPage() {
 
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -70,9 +69,12 @@ function ProjectPage() {
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 md:px-14 px-6 ">
                     <a
                         to="/"className="flex items-center cursor-pointer">
-                        <img
+                        <Image
                             src="/logo.png"
-                            className="h-12 mr-3"
+                            className="h-12 w-[4rem] mr-3"
+                            width="0"
+                            height="0" 
+                            sizes="100vw"   
                             alt="Flowbite Logo"
                             onClick={() => {window.location.href="/"}}
                         />
@@ -108,7 +110,8 @@ function ProjectPage() {
                                 slideIndex === currentIndex ? 'text-customOrange' : 'text-gray-300'
                             }`}
                         >
-                            <img src={slide.url} alt={`Slide ${slideIndex + 1}`} className="md:w-28  md:h-20 rounded-lg p-1 w-22 h-full md:p-[6px] " />
+                            <Image src={slide.url} alt={`Slide ${slideIndex + 1}`} className="md:w-28  md:h-20 rounded-lg p-1 w-22 h-full md:p-[6px] "  width="0"
+                            height="0" sizes="100vw"   />
                             {slideIndex === currentIndex && (
                                 <div className="absolute w-full h-full border-[1.5px] md:border-2 border-black rounded-lg top-0 left-0 pointer-events-none"></div>
                             )}

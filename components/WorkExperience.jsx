@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from 'next/image';
 
 function WorkExperience() {
     const divStyle = {
@@ -27,7 +28,7 @@ function WorkExperience() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-[86px]">
                         {/* Card 1 */}
                         <div className="bg-slate-200 shadow-lg rounded-2xl flex flex-col justify-center items-center p-6" >
-                            <img src="plan2.jpg" alt="Image 1" className="w-full h-40 object-cover rounded-xl" />
+                            <Image src="/plan2.jpg" alt="Image 1" className="w-full h-40 object-cover rounded-xl" width="0" height="0" sizes="100vw"/>
                             <h2 className="text-xl font-semibold mt-4">Project 1</h2>
                             <p className="text-gray-500 mt-2">03/23 - 07/23 (4 months)</p>
                             <p className="text-gray-900 mt-2 text-center">
@@ -38,7 +39,7 @@ function WorkExperience() {
 
                         {/* Card 2 */}
                         <div className="bg-slate-200 shadow-lg rounded-2xl flex flex-col justify-center items-center p-6" >
-                            <img src="plan.jpg" alt="Image 2" className="w-full h-40 object-cover rounded-xl" />
+                            <Image src="/plan.jpg" alt="Image 2" className="w-full h-40 object-cover rounded-xl" width="0" height="0" sizes="100vw"/>
                             <h2 className="text-xl font-semibold mt-4">Project 2</h2>
                             <p className="text-gray-500 mt-2">Duration: 8 months</p>
                             <p className="text-gray-900 mt-2 text-center">
@@ -48,7 +49,7 @@ function WorkExperience() {
                         </div>
 
                         <div className="bg-slate-200 shadow-lg rounded-2xl flex flex-col justify-center items-center p-6" >
-                            <img src="plan3.jpg" alt="Image 3" className="w-full h-40 object-cover rounded-xl" />
+                            <Image src="/plan3.jpg" alt="Image 3" className="w-full h-40 object-cover rounded-xl" width="0" height="0" sizes="100vw"/>
                             <h2 className="text-xl font-semibold mt-4">Project 3</h2>
                             <p className="text-gray-500 mt-2">Duration: 10 months</p>
                             <p className="text-gray-900 mt-2 text-center">
