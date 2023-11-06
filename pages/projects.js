@@ -92,9 +92,11 @@ function ProjectPage() {
         <div className="px-7 md:px-[5rem] py-[2rem]">
             <div className="max-w-screen md:w-[70rem] h-[15rem]  md:h-[36rem]  relative group">
                 <div
-                    style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+                    // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
                     className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
-                ></div>
+                >
+                    <Image src={slides[currentIndex].url} alt={`Slide ${currentIndex + 1}`} className="w-full h-full rounded-2xl bg-center bg-cover duration-500"  width="0" height="0" sizes='90vw'/>
+                </div>
                 <div className="md:hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 md:text-2xl text-lg  rounded-full p-1 md:p-2 bg-black/20 text-white cursor-pointer">
                     <BsChevronCompactLeft onClick={prevSlide} />
                 </div>
