@@ -39,7 +39,7 @@ function Header() {
                         smooth={true} className="flex items-center cursor-pointer">
                         <Image width="0"  height="0" sizes="100vw"  
                             src="/logo.png"
-                            className="h-12 mr-3"
+                            className="h-12 w-[4rem] mr-3"
                             alt="Flowbite Logo"
                         />
                     </Link>

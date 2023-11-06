@@ -24,9 +24,9 @@ function Projects() {
         </p>
 
         <Image width="0"  height="0" sizes="100vw"  
-          src="project.gif"
+          src="/project.gif"
           alt="Project Image"
-          className="max-w-full h-72"
+          className="w-64 h-72"
 
         />
 
