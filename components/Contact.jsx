@@ -1,8 +1,8 @@
-import React,{ useEffect, useRef} from 'react'
+import React,{ useEffect, useRef} from "react"
 import AOS from "aos";
 import "aos/dist/aos.css";
-import emailjs from '@emailjs/browser';
-import Script from 'next/script';
+import emailjs from "@emailjs/browser";
+import Script from "next/script";
 
 function Contact() {
     const formRef = useRef(null);
@@ -15,7 +15,7 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         emailjs
-            .sendForm('service_6zyiciq', 'template_nyvfhsq', formRef.current, 'S40Uf4gzK6C-EjIct')
+            .sendForm("service_6zyiciq", "template_nyvfhsq", formRef.current, "S40Uf4gzK6C-EjIct")
             .then((result) => {
                 console.log(result.text);
                 alert("Message Sent")
@@ -23,7 +23,7 @@ function Contact() {
             .catch((error) => {
                 console.log(error.text);
             });
-        console.log('Form data submitted');
+        console.log("Form data submitted");
         // Reset the form after submission
         formRef.current.reset();
     };
@@ -39,11 +39,11 @@ function Contact() {
                 src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
             ></Script>
             <div className="min-h-screen flex justify-center items-center bg-gray-900 text-white" id="contact-section">
-                <div className="relative px-[100px] py-[50px] flex justify-center items-center flex-col bg-cover w-full " style={{ backgroundImage: `url('contact-bg.jpg')` }}>
+                <div className="relative px-[100px] py-[50px] flex justify-center items-center flex-col bg-cover w-full " style={{ backgroundImage: `url("contact-bg.jpg")` }}>
                     <div className="relative z-20" >
                     <div className="max-width-[800px] flex flex-col items-center justify-center mb-14">
                         <div className="text-[36px] font-semibold">Contact Me</div>
-                        <div className="font-thin text-center">Have a project in mind or want to collaborate on a design? Feel free to reach out. I'm an aspiring architect with a passion for creating captivating spaces that merge functionality and aesthetics.</div>
+                        <div className="font-thin text-center">Have a project in mind or want to collaborate on a design? Feel free to reach out. I&apos;m an aspiring architect with a passion for creating captivating spaces that merge functionality and aesthetics.</div>
                     </div>
                     <div className="w-full flex justify-center items-center mt-9">
                         <div className="flex flex-col w-1/2" >
@@ -82,7 +82,7 @@ function Contact() {
                                     <input
                                         type="text"
                                         name="user_name"
-                                        className='w-full py-[5px] text-[16px] px-0 mx-0 my-[10px] mb-1 border-b-2 border-gray-700 outline-none text-gray-700'
+                                        className="w-full py-[5px] text-[16px] px-0 mx-0 my-[10px] mb-1 border-b-2 border-gray-700 outline-none text-gray-700"
                                         required
                                     />
                                     <div className="text-gray-700 text-sm">Full Name</div>
@@ -91,7 +91,7 @@ function Contact() {
                                     <input
                                         type="text"
                                         name="user_email"
-                                        className='w-full py-[5px] text-[16px] px-0 mx-0 my-[10px] mb-1   border-b-2 border-gray-700 outline-none text-gray-700'
+                                        className="w-full py-[5px] text-[16px] px-0 mx-0 my-[10px] mb-1   border-b-2 border-gray-700 outline-none text-gray-700"
                                         required
                                     />
                                     <div className=" text-gray-700 text-sm">Email</div>
@@ -99,7 +99,7 @@ function Contact() {
                                 <div className="">
                                     <textarea
                                         name="message"
-                                        className='w-full py-[5px] text-[16px] px-0 mx-0 my-[10px] mb-1   border-b-2 border-gray-700 outline-none text-gray-700'
+                                        className="w-full py-[5px] text-[16px] px-0 mx-0 my-[10px] mb-1   border-b-2 border-gray-700 outline-none text-gray-700"
                                         required
                                     ></textarea>
                                     <div className=" text-gray-700 text-sm">Type Your Message...</div>

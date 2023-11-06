@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function HeroSection() {
   // useEffect(() => {
@@ -16,9 +16,9 @@ function HeroSection() {
         style={{ zIndex: 2 }} 
       >
         <div>
-            <h1 className='font-medium text-lg text-white'> Hello!</h1>
+            <h1 className="font-medium text-lg text-white"> Hello!</h1>
           <h1 className="text-5xl font-bold text-white mb-4">
-            I'm Shubh Khatke <br /> <span className='text-4xl mt-2'>Architect</span> 
+            I&apos;m Shubh Khatke <br /> <span className="text-4xl mt-2">Architect</span> 
           </h1>
           <p className="text-md text-gray-400 mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt. Fusce viverra arcu sit amet leo scelerisque, vel auctor arcu tempus
@@ -26,7 +26,7 @@ function HeroSection() {
           <button
             className=" hover:bg-gray-900 border border-white text-white text-lg py-1 mr-3 px-3 rounded-xl shadow-custom"
             onClick={() => {
-              window.location.href = '/projects';
+              window.location.href = "/projects";
             }}
           >
             See My Projects
