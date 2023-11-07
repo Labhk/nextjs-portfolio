@@ -10,7 +10,8 @@ function About() {
 
     return (
         <>
-            <div className="min-h-screen flex justify-center items-center " id="about-section">
+            
+            <div className="min-h-screen flex justify-center items-center  " id="about-section">
                 
                 <div className="container mx-auto px-4 " >
                     <div className="flex flex-col md:flex-row ">
