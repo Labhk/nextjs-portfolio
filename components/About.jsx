@@ -13,7 +13,7 @@ function About() {
             
             <div className="min-h-screen flex justify-center items-center  " id="about-section">
                 
-                <div className="container mx-auto px-4 " >
+                <div className="container mx-auto px-4 md:px-14 " >
                     <div className="flex flex-col md:flex-row ">
                         <div className="md:w-1/2 md:pr-14" >
                             <img
@@ -22,7 +22,7 @@ function About() {
                             />
                         </div>
                         <div className="md:w-1/2 md:pl-20 mt-8 md:mt-10 text-center md:text-left" >
-                            <h2 className="text-5xl font-bold text-gray-900 mb-7">About Me</h2>
+                            <h2 className="text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 mb-7">About Me</h2>
                            
                             <p className="text-gray-700 text-lg">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum nulla ac commodo cursus. Sed nec metus id justo hendrerit feugiat. Proin iaculis tristique magna, et viverra nulla consequat quis.

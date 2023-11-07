@@ -9,7 +9,7 @@ function Skills() {
     return (
         <>
             <div className="min-h-screen flex flex-col justify-center bg-slate-200 items-center" id="skills-section">
-                <div className="text-5xl font-bold text-gray-900">
+                <div className="text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 ">
                     Skills
                 </div>
                 <hr className="w-14 h-0 my-4 mt-5 border-slate-500 border-[1.5px] rounded-full bg-black"   />
@@ -25,7 +25,7 @@ function Skills() {
                                     className="w-full h-full"
                                 />
                             </div>
-                            <div className="text-lg font-medium">{skill.skillName}</div>
+                            <div className="text-lg font-base text-gray-600">{skill.skillName}</div>
                         </div>
                     ))}
                 </div>
