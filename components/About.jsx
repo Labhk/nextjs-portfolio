@@ -21,8 +21,8 @@ function About() {
                                 alt="About Me"
                             />
                         </div>
-                        <div className="md:w-1/2 md:pl-20 mt-8 md:mt-10" >
-                            <h2 className="text-5xl font-semibold mb-8">About Me</h2>
+                        <div className="md:w-1/2 md:pl-20 mt-8 md:mt-10 text-center md:text-left" >
+                            <h2 className="text-5xl font-bold text-gray-900 mb-7">About Me</h2>
                            
                             <p className="text-gray-700 text-lg">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum nulla ac commodo cursus. Sed nec metus id justo hendrerit feugiat. Proin iaculis tristique magna, et viverra nulla consequat quis.

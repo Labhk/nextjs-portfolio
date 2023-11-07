@@ -25,7 +25,7 @@ function WorkExperience() {
                 <hr className="w-14 h-0 my-4 mt-5 border-slate-500 border-[1.5px] rounded-full bg-black" />
 
                 <div className=" w-full p-8 py-14 mt-8" style={divStyle}>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-[86px]">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:px-[4rem]">
                         {/* Card 1 */}
                         <div className="bg-slate-200 shadow-lg rounded-2xl flex flex-col justify-center items-center p-6" >
                             <Image src="/plan2.jpg" alt="Image 1" className="w-full h-40 object-cover rounded-xl" width="0" height="0" sizes="100vw"/>

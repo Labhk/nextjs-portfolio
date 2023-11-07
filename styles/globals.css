@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 768px) {
   .bg-img {
-    display: none;
+    background-position: 50%;
   }
   
 }

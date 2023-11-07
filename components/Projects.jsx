@@ -24,14 +24,14 @@ function Projects() {
         </p>
 
         <Image width="0"  height="0" sizes="100vw"  
-          src="/project.gif"
+          src="/project.png"
           alt="Project Image"
           className="w-64 h-72"
 
         />
 
         <button
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mt-8 rounded-lg"
+          className="hover:bg-gray-900 border bg-slate-800 border-white text-white text-lg py-1 mr-3 px-3 rounded-xl"
           onClick={() => { window.location.href = '/projects' }}
 
         >
