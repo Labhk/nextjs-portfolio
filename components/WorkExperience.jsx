@@ -65,7 +65,10 @@ function WorkExperience() {
                             <p className="text-gray-900 mt-2 text-center">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.
                             </p>
-                            <button className="mt-4 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800">View Plans</button>
+                            <button className="mt-4 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800" onClick={() => {
+                              window.open("https://drive.google.com/file/d/1zf_bpyVGsLRwMxgeKfyc_l5h-6rSGBf_/view?usp=sharing", "_blank");
+                            }}
+                            >View Plans</button>
                         </div>
 
                         <div className="bg-slate-200 shadow-lg rounded-2xl flex flex-col justify-center items-center p-6" >
@@ -75,7 +78,10 @@ function WorkExperience() {
                             <p className="text-gray-900 mt-2 text-center">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.
                             </p>
-                            <button className="mt-4 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-700">View Plans</button>
+                            <button className="mt-4 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-700" onClick={() => {
+                              window.open("https://drive.google.com/file/d/1zf_bpyVGsLRwMxgeKfyc_l5h-6rSGBf_/view?usp=sharing", "_blank");
+                            }}
+                            >View Plans</button>
                         </div>
                     </div>
                 </div>

@@ -8,6 +8,17 @@ function HeroSection() {
   //     AOS.refresh();
   // }, []);
 
+  const handleDownloadCV = () => {
+    // Create a link element to trigger the download
+    const link = document.createElement("a");
+    link.href = "/shubhk-resume.pdf"; // Replace with the actual path to your PDF file
+    link.download = "shubhk-resume.pdf"; // Specify the filename for the downloaded file
+    link.click();
+
+    // Clean up the link element
+    link.remove();
+  };
+
   return (
     <div className="min-h-screen relative bg-img" id="hero-section">
 
@@ -22,7 +33,7 @@ function HeroSection() {
             I&apos;m Shubh Khatke <br /> <span className="md:text-4xl text-3xl mt-2">Architect</span> 
           </h1>
           <p className="text-md text-gray-400 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt. Fusce viverra arcu sit amet leo scelerisque, vel auctor arcu tempus
+            New Architecture Graduate with a solid grasp of design principles, project management, adn zeal for crafting functional, visually appealing spaces. Ready to apply academic insights from L. J. School of Architecture to bring innovative ideas adn fresh perspective to architectural projects.
           </p>
           <button
             className=" hover:bg-gray-900 border border-white text-white text-lg py-1 mr-3 px-3 rounded-xl shadow-custom"
@@ -34,7 +45,9 @@ function HeroSection() {
           </button>
           <button
             className=" hover:bg-gray-900 underline underline-offset-2 text-white text-lg py-1 px-3 rounded-xl shadow-custom"
+            onClick={handleDownloadCV}
           >
+            
             Download CV
           </button>
         </div>

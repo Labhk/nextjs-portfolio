@@ -38,10 +38,12 @@ function Projects() {
         </button>
         <button
           className="hover:bg-gray-900 border bg-slate-800 border-white text-white text-sm md:text-lg md:py-2 py-1 mr-3 px-3 rounded-xl mt-10"
-          onClick={() => { window.location.href = '/projects' }}
+          onClick={() => {
+            window.open("https://drive.google.com/file/d/1mKJHXUK93JinJKrID1jDhvLOmax35cAn/view?usp=sharing", "_blank");
+          }}
 
         >
-          Download My Thesis
+          View My Thesis
         </button></div>
         
       </div>
