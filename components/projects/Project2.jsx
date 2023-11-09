@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
-import Image from 'next/image';
+import React, {useState, useEffect} from "react";
+import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import { RxDotFilled } from "react-icons/rx";
+import Image from "next/image";
 
 function Project2() {
 
@@ -9,74 +9,74 @@ function Project2() {
     const [selectedCard, setSelectedCard] = useState(null); 
     const slides = [
         {
-          url: '/aa1.jpg',
+          url: "/aa1.jpg",
         },
         {
-            url: '/aa2.jpg',
+            url: "/aa2.jpg",
         },
         
         {
-            url: '/aa3.jpg',
+            url: "/aa3.jpg",
         },
         {
-            url: '/aa4.png',
+            url: "/aa4.png",
         },
         {
-            url: '/aa5.jpg',
+            url: "/aa5.jpg",
           },
           {
-              url: '/aa6.png',
+              url: "/aa6.png",
           },
           {
-              url: '/aa7.jpg',
+              url: "/aa7.jpg",
           },
           {
-              url: '/aa8.png',
+              url: "/aa8.png",
           },
   
           {
-            url: '/aa9.jpg',
+            url: "/aa9.jpg",
           },
           {
-              url: '/aa10.png',
+              url: "/aa10.png",
           },
           {
-              url: '/aa11.jpg',
+              url: "/aa11.jpg",
           },
           {
-              url: '/aa12.jpg',
-          },
-  
-          {
-            url: '/aa13.jpg',
-          },
-          {
-              url: '/aa14.jpg',
-          },
-          {
-              url: '/aa15.png',
-          },
-          {
-              url: '/aa16.jpg',
+              url: "/aa12.jpg",
           },
   
           {
-            url: '/aa17.jpg',
+            url: "/aa13.jpg",
           },
           {
-              url: '/aa18.jpg',
+              url: "/aa14.jpg",
           },
           {
-              url: '/aa19.jpg',
+              url: "/aa15.png",
           },
           {
-              url: '/aa20.jpg',
+              url: "/aa16.jpg",
+          },
+  
+          {
+            url: "/aa17.jpg",
           },
           {
-            url: '/aa22.jpg',
+              url: "/aa18.jpg",
+          },
+          {
+              url: "/aa19.jpg",
+          },
+          {
+              url: "/aa20.jpg",
+          },
+          {
+            url: "/aa22.jpg",
         },
         {
-            url: '/aa21.jpg',
+            url: "/aa21.jpg",
         },
 
                
@@ -113,8 +113,8 @@ function Project2() {
     };
 
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
 
@@ -127,14 +127,14 @@ function Project2() {
             Affordable Housing
             </div>
         </div>
-        <div className='flex justify-center'>
+        <div className="flex justify-center">
         <div className="px-7 md:px-[5rem] py-[2rem] ">
             <div className="max-w-screen md:w-[70rem] h-[15rem] bg-slate-900 rounded-xl  md:h-[36rem]  relative group border">
                 <div
                     // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
                     className="w-full h-full flex justify-center  bg-center bg-cover duration-500  "
                 >
-                    <Image src={slides[currentIndex].url} alt={`Slide ${currentIndex + 1}`} className="w-fit h-full rounded-xl md:rounded-none   bg-center bg-cover duration-500"  width="0" height="0" sizes='90vw'/>
+                    <Image src={slides[currentIndex].url} alt={`Slide ${currentIndex + 1}`} className="w-fit h-full rounded-xl md:rounded-none   bg-center bg-cover duration-500"  width="0" height="0" sizes="90vw"/>
                 </div>
                 <div className="md:hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 md:text-2xl z-10 text-lg  rounded-full p-1 md:p-2 bg-black/20 text-white cursor-pointer">
                     <BsChevronCompactLeft onClick={prevSlide} />
@@ -149,7 +149,7 @@ function Project2() {
                             key={slideIndex}
                             onClick={() => goToSlide(slideIndex)}
                             className={`text-2xl cursor-pointer relative mr-1 ${
-                                slideIndex === currentIndex ? 'text-gray-500' : 'text-gray-300'
+                                slideIndex === currentIndex ? "text-gray-500" : "text-gray-300"
                             }`}
                         >
                             <Image src={slide.url} alt={`Slide ${slideIndex + 1}`} className="md:w-28  md:h-full rounded-lg p-1  h-full  border border-gray-300"  width="0"
@@ -167,7 +167,7 @@ function Project2() {
         
 
         
-        <div className='flex justify-center items-center space-y-1  flex-col p-4  md:mt-14 md:px-16 px-10'>
+        <div className="flex justify-center items-center space-y-1  flex-col p-4  md:mt-14 md:px-16 px-10">
         <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
         This project showcases a visionary Affordable Housing Project that transcends traditional living spaces. Within the confines of this innovative endeavour, we present a collection of meticulously designed 2BHK and 3BHK flats, each representing a harmonious blend of functionality and aesthetic appeal. 
         </div>
@@ -186,7 +186,7 @@ function Project2() {
 
                                
         <div className="mt-5 mb-10 flex justify-center items-center">
-            <button className='px-6 md:px-10 py-3 md:py-4 text-sm md:text-xl rounded-lg md:rounded-2xl bg-gradient-to-br from-slate-900 via-slate-600 to-slate-900 text-white hover:bg-gradient-to-br hover:from-slate-100 hover:via-slate-500 hover:to-slate-100 hover:text-black hover:border hover:border-slate-900 button-animation' onClick={openVideoPopup}>
+            <button className="px-6 md:px-10 py-3 md:py-4 text-sm md:text-xl rounded-lg md:rounded-2xl bg-gradient-to-br from-slate-900 via-slate-600 to-slate-900 text-white hover:bg-gradient-to-br hover:from-slate-100 hover:via-slate-500 hover:to-slate-100 hover:text-black hover:border hover:border-slate-900 button-animation" onClick={openVideoPopup}>
                 Watch 3D Project Walkthrough
             </button>
         </div>
@@ -224,7 +224,7 @@ function Project2() {
                     </button>
                     <div className="w-full md:w-[85%] md:h-[85%] bg-white rounded-lg overflow-hidden">
                     <iframe
-                    className='w-full h-full'
+                    className="w-full h-full"
                     src="https://www.youtube.com/embed/aw2KHi9GPOE"
                     title="YouTube video player"
                     frameborder="0"
