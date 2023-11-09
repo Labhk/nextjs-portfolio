@@ -9,75 +9,76 @@ function Project2() {
     const [selectedCard, setSelectedCard] = useState(null); 
     const slides = [
         {
-          url: '/a1.png',
+          url: '/aa1.jpg',
         },
         {
-            url: '/a2.png',
+            url: '/aa2.jpg',
+        },
+        
+        {
+            url: '/aa3.jpg',
         },
         {
-            url: '/a22.jpg',
+            url: '/aa4.png',
         },
         {
-            url: '/a21.jpg',
+            url: '/aa5.jpg',
+          },
+          {
+              url: '/aa6.png',
+          },
+          {
+              url: '/aa7.jpg',
+          },
+          {
+              url: '/aa8.png',
+          },
+  
+          {
+            url: '/aa9.jpg',
+          },
+          {
+              url: '/aa10.png',
+          },
+          {
+              url: '/aa11.jpg',
+          },
+          {
+              url: '/aa12.jpg',
+          },
+  
+          {
+            url: '/aa13.jpg',
+          },
+          {
+              url: '/aa14.jpg',
+          },
+          {
+              url: '/aa15.png',
+          },
+          {
+              url: '/aa16.jpg',
+          },
+  
+          {
+            url: '/aa17.jpg',
+          },
+          {
+              url: '/aa18.jpg',
+          },
+          {
+              url: '/aa19.jpg',
+          },
+          {
+              url: '/aa20.jpg',
+          },
+          {
+            url: '/aa22.jpg',
+        },
+        {
+            url: '/aa21.jpg',
         },
 
-        {
-            url: '/a3.jpg',
-        },
-        {
-            url: '/a4.png',
-        },
-        {
-            url: '/a5.jpg',
-          },
-          {
-              url: '/a6.jpg',
-          },
-          {
-              url: '/a7.jpg',
-          },
-          {
-              url: '/a8.png',
-          },
-  
-          {
-            url: '/a9.png',
-          },
-          {
-              url: '/a10.jpg',
-          },
-          {
-              url: '/a11.jpg',
-          },
-          {
-              url: '/a12.jpg',
-          },
-  
-          {
-            url: '/a13.jpg',
-          },
-          {
-              url: '/a14.jpg',
-          },
-          {
-              url: '/a15.jpg',
-          },
-          {
-              url: '/a16.jpg',
-          },
-  
-          {
-            url: '/a17.jpg',
-          },
-          {
-              url: '/a18.jpg',
-          },
-          {
-              url: '/a19.jpg',
-          },
-          {
-              url: '/a20.jpg',
-          },
                
         
       ];
@@ -120,9 +121,9 @@ function Project2() {
     return (
         <>
          
-        <div className="mb-8">
+        <div className="mb-8 pb-8 bg-slate-300 ">
         <div className="flex flex-col justify-center items-center">
-            <div className="text-3xl md:text-5xl font-bold text-gray-800 mb-4 mt-10">
+        <div className="text-2xl px-3 text-center md:text-5xl font-bold text-gray-800 mb-4 mt-10">
             Affordable Housing
             </div>
         </div>
@@ -166,41 +167,27 @@ function Project2() {
         
 
         
-        <div className="flex flex-col space-y-1 md:space-y-0 md:space-x-8 md:flex-row p-4 mt-10 md:mt-20 md:px-16 px-10">
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>            
+        <div className='flex justify-center items-center space-y-1  flex-col p-4  md:mt-14 md:px-16 px-10'>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        This project showcases a visionary Affordable Housing Project that transcends traditional living spaces. Within the confines of this innovative endeavour, we present a collection of meticulously designed 2BHK and 3BHK flats, each representing a harmonious blend of functionality and aesthetic appeal. 
+        </div>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        There are a plethora of amenities carefully curated to enrich the lives of our residents. Immerse yourself in the enchanting laughter of children echoing from our expansive playgrounds, creating a vibrant atmosphere conducive to family bonding and communal spirit. The event grounds, meticulously planned, serve as dynamic spaces for cultural celebrations, social gatherings, and community events, fostering a sense of togetherness among our esteemed residents. 
+        </div>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        Striking clubhouse, offering more than just a space for recreation. It is a hub for social interaction, a sanctuary for fitness enthusiasts with a fully-equipped gym, and a versatile venue for a variety of community activities. Our commitment to holistic living is evident in every corner of this clubhouse. 
+        </div>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        In pursuit of convenience, this project has seamlessly integrated a variety of shops within the project. This strategic inclusion ensures that daily necessities and specialty items are easily accessible, creating a living experience that is not only comfortable but also efficient.
+        </div>
+
         </div>
 
 
                                
         <div className="mt-5 mb-10 flex justify-center items-center">
             <button className='px-6 md:px-10 py-3 md:py-4 text-sm md:text-xl rounded-lg md:rounded-2xl bg-gradient-to-br from-slate-900 via-slate-600 to-slate-900 text-white hover:bg-gradient-to-br hover:from-slate-100 hover:via-slate-500 hover:to-slate-100 hover:text-black hover:border hover:border-slate-900 button-animation' onClick={openVideoPopup}>
-                Watch 3D Project Demo
+                Watch 3D Project Walkthrough
             </button>
         </div>
 

@@ -19,7 +19,7 @@
 
 .bg-img {
   position: relative;
-  background: url('/bg.jpg');
+  background: url('/bgbuild.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -34,11 +34,12 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.3); /* Adjust the opacity as needed (0.3 for 30% opacity) */
   z-index: 1;
+
 }
 
 @media screen and (max-width: 768px) {
   .bg-img {
-    background-position: 50%;
+    background-position: 25%;
   }
   
 }

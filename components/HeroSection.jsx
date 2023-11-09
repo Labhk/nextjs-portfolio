@@ -30,7 +30,7 @@ function HeroSection() {
         <div className="text-center md:text-left">
             <h1 className="font-medium text-lg text-white"> Hello!</h1>
           <h1 className="md:text-5xl text-3xl font-bold text-white mb-4">
-            I&apos;m Shubh Khatke <br /> <span className="md:text-4xl text-3xl mt-2">Architect</span> 
+            Ar. Shubh Khatke here
           </h1>
           <p className="text-md text-gray-400 mb-6">
             New Architecture Graduate with a solid grasp of design principles, project management, adn zeal for crafting functional, visually appealing spaces. Ready to apply academic insights from L. J. School of Architecture to bring innovative ideas adn fresh perspective to architectural projects.

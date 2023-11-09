@@ -9,6 +9,21 @@ function Project3() {
     const [selectedCard, setSelectedCard] = useState(null); 
     const slides = [
         {
+          url: '/h15.jpg',
+        },
+        {
+          url: '/h11.jpg',
+        },
+        {
+          url: '/h12.jpg',
+        },
+        {
+          url: '/h13.jpg',
+        },
+        {
+          url: '/h14.jpg',
+        },
+        {
           url: '/h1.jpg',
         },
         {
@@ -17,6 +32,7 @@ function Project3() {
         {
           url: '/h3.jpg',
         },
+    
         {
           url: '/h4.jpg',
         },
@@ -32,27 +48,11 @@ function Project3() {
         {
           url: '/h8.jpg',
         },
-    
         {
-          url: '/h9.jpg',
+            url: '/h9.jpg',
         },
         {
-          url: '/h10.jpg',
-        },
-        {
-          url: '/h11.jpg',
-        },
-        {
-          url: '/h12.jpg',
-        },
-        {
-          url: '/h13.jpg',
-        },
-        {
-            url: '/h14.jpg',
-        },
-        {
-            url: '/h15.jpg',
+            url: '/h10.jpg',
         }
       ];
     
@@ -96,7 +96,7 @@ function Project3() {
          
         <div className="mb-8">
         <div className="flex flex-col justify-center items-center">
-            <div className="text-3xl md:text-5xl font-bold text-gray-800 mb-4 mt-10">
+        <div className="text-2xl px-3 text-center md:text-5xl font-bold text-gray-800 mb-4 mt-10">
             Primary Health Care Centre with Healing Garden
             </div>
         </div>
@@ -105,7 +105,7 @@ function Project3() {
             <div className="max-w-screen md:w-[70rem] h-[15rem] bg-slate-900 rounded-2xl  md:h-[36rem]  relative group">
                 <div
                     // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-                    className="w-full h-full flex justify-center  bg-center bg-cover duration-500 border rounded-2xl"
+                    className="w-full h-full flex justify-center  bg-center bg-cover duration-500 rounded-2xl"
                 >
                     <Image src={slides[currentIndex].url} alt={`Slide ${currentIndex + 1}`} className="w-fit h-full rounded-xl md:rounded-none   bg-center bg-cover duration-500"  width="0" height="0" sizes='90vw'/>
                 </div>
@@ -140,41 +140,23 @@ function Project3() {
         
 
         
-        <div className="flex flex-col space-y-1 md:space-y-0 md:space-x-8 md:flex-row p-4 mt-10 md:mt-20 md:px-16 px-10">
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>            
+        <div className='flex justify-center items-center space-y-1  flex-col p-4  md:mt-14 md:px-16 px-10'>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        This project defines healthcare with compassion and innovation—the Primary Healthcare Centre with a Healing Garden. This visionary project goes beyond the traditional medical facility, embracing a holistic approach to healing and well-being.
+        </div>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        Primary Healthcare Centre: The Primary Healthcare Centre is designed to provide comprehensive and accessible medical services to the community. This centre includes four departments: the consultant department, the specialist department, the management department, and the emergency department.
+        </div>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        Healing Garden: Complementing the healthcare centre is a meticulously crafted healing garden—a serene oasis designed to promote holistic well-being. This lush, green space is more than just a garden; it's a therapeutic environment where patients, carers, and visitors can find solace, tranquilly, and rejuvenation. Walking paths wind through vibrant foliage, seating areas offer moments of reflection, and carefully selected plants contribute to the overall therapeutic ambiance. 
+        </div>
         </div>
 
 
                                
         <div className="mt-5 mb-10 flex justify-center items-center">
             <button className='px-6 md:px-10 py-3 md:py-4 text-sm md:text-xl rounded-lg md:rounded-2xl bg-gradient-to-br from-slate-900 via-slate-600 to-slate-900 text-white hover:bg-gradient-to-br hover:from-slate-100 hover:via-slate-500 hover:to-slate-100 hover:text-black hover:border hover:border-slate-900 button-animation' onClick={openVideoPopup}>
-                Watch 3D Project Demo
+                Watch 3D Project Walkthrough
             </button>
         </div>
 

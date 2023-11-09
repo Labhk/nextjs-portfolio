@@ -9,16 +9,16 @@ function Project1() {
     const [selectedCard, setSelectedCard] = useState(null); 
     const slides = [
         {
-          url: '/p6.jpg',
+          url: '/p1.jpg',
         },
         {
           url: '/p2.jpg',
         },
         {
-          url: '/p1.jpg',
+          url: '/p3.jpg',
         },
         {
-          url: '/p3.jpg',
+          url: '/p6.jpg',
         },
         {
           url: '/p4.jpg',
@@ -90,7 +90,7 @@ function Project1() {
          
         <div className="mb-8">
         <div className="flex flex-col justify-center items-center">
-            <div className="text-3xl md:text-5xl font-bold text-gray-800 mb-4 mt-10">
+            <div className="text-2xl px-3 text-center md:text-5xl font-bold text-gray-800 mb-4 mt-10">
             Neighborhood Recreational Civic Centre
             </div>
         </div>
@@ -99,7 +99,7 @@ function Project1() {
             <div className="max-w-screen md:w-[70rem] h-[15rem] bg-slate-900 rounded-2xl  md:h-[36rem]  relative group">
                 <div
                     // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-                    className="w-full h-full flex justify-center  bg-center bg-cover duration-500 border rounded-2xl"
+                    className="w-full h-full flex justify-center  bg-center bg-cover duration-500 rounded-2xl"
                 >
                     <Image src={slides[currentIndex].url} alt={`Slide ${currentIndex + 1}`} className="w-fit h-full rounded-xl md:rounded-none   bg-center bg-cover duration-500"  width="0" height="0" sizes='90vw'/>
                 </div>
@@ -131,44 +131,29 @@ function Project1() {
             </div>
         </div>
         </div>
-        
+                                
 
         
-        <div className="flex flex-col space-y-1 md:space-y-0 md:space-x-8 md:flex-row p-4 mt-10 md:mt-20 md:px-16 px-10">
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>
-            <div className="w-full md:w-1/3 p-4 rounded-md flex flex-col items-center">
-                <div className=" text-lg md:text-xl font-semibold">Project Info</div>
-                <ul className="list-disc text-xs md:text-sm leading-5 mt-4 text-gray-400 text-justify md:pl-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                    <li>Nunc tristique velit ut nisl fringilla, non consectetur metus tincidunt.</li>
-                </ul>
-            </div>            
+        {/* <div className="flex flex-col  space-y-1  md:flex-col md:justify-center p-4 mt-10 md:mt-14 md:px-16 px-10"> */}
+        <div className='flex justify-center items-center space-y-1  flex-col p-4  md:mt-14 md:px-16 px-10'>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+            This Neighborhood Recreational Civic Center is designed as a multifunctional community facility to serve as a focal point for social, recreational, and cultural activities within this specific residential area. 
         </div>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        This center is meticulously planned to enhance the overall quality of life for local residents by providing a versatile space for a wide range of activities and events. These include activities for all age group.This multifaceted center boasts recreational facilities, offering everything from playground and library to creative exhibition space and event ground.
+        </div>
+        <div className="w-full md:w-2/3 p-2 rounded-md  text-xs md:text-lg leading-5 text-gray-600 text-justify">
+        With its welcoming atmosphere, the center serves as a focal point for social interaction, promoting a healthy and active lifestyle while nurturing a strong sense of community pride. It's not just a place; it's a lively space where friendships are forged,  and the community spirit thrives. 
+        </div>
+        </div>
+
+
 
 
                                
         <div className="mt-5 mb-10 flex justify-center items-center">
             <button className='px-6 md:px-10 py-3 md:py-4 text-sm md:text-xl rounded-lg md:rounded-2xl bg-gradient-to-br from-slate-900 via-slate-600 to-slate-900 text-white hover:bg-gradient-to-br hover:from-slate-100 hover:via-slate-500 hover:to-slate-100 hover:text-black hover:border hover:border-slate-900 button-animation' onClick={openVideoPopup}>
-                Watch 3D Project Demo
+                Watch 3D Project Walkthrough
             </button>
         </div>
 

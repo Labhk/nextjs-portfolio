@@ -26,7 +26,7 @@ function Projects() {
         <Image width="0"  height="0" sizes="100vw"  
           src="/project.png"
           alt="Project Image"
-          className="w-64 h-72"
+          className="w-[20rem] h-72"
 
         />
       <div className='flex gap-2'><button

@@ -25,10 +25,10 @@ function About() {
                             <h2 className="text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 mb-7">About Me</h2>
                            
                             <p className="text-gray-700 text-lg">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum nulla ac commodo cursus. Sed nec metus id justo hendrerit feugiat. Proin iaculis tristique magna, et viverra nulla consequat quis.
+                            As a recent graduate in architecture, I am fueled by a profound passion for transforming spaces into inspiring environments. My academic journey has equipped me with a solid foundation in architectural principles, design thinking, and a commitment to innovative solutions.
                             </p>
                             <p className="text-gray-700 pt-3 text-lg">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum nulla ac commodo cursus. Sed nec metus id justo hendrerit feugiat. Proin iaculis tristique magna, et viverra nulla consequat quis.
+                            Beyond the technical aspects, I bring a collaborative and detail-oriented approach to every project. I believe in the power of architecture to enhance the human experience, and I am committed to contributing fresh perspectives and creative solutions to the field.
                             </p>
                         </div>
                     </div>

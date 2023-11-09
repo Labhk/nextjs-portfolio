@@ -32,7 +32,7 @@ function Header() {
     return (
         <>
          <div className={` top-0 w-full z-30 ${scrolled ? 'shadow-md' : 'fixed'}`} >
-            <nav className="bg-slate-900 bg-opacity-80 border-gray-200">
+            <nav className="bg-slate-900 bg-opacity-[0.85] border-gray-200">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-10">
                     <Link
                         to="hero-section"
