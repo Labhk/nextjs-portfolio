@@ -19,15 +19,17 @@ function Projects() {
         </div>
         <hr className="w-14 h-0 my-4 mt-1 mb-7 border-slate-500 border-[1.5px] rounded-full bg-black" />
         
-        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl md:w-1/2 "  >
+        <p className="mb-6 lg:mb-10 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl md:w-1/2 "  >
         Explore some of my latest projects below. These projects showcase innovative architecture and design solutions.
         </p>
 
         <Image width="0"  height="0" sizes="100vw"  
-          src="/project.png"
+          src="/spread.gif"
           alt="Project Image"
-          className="w-[20rem] h-72"
-
+          className="w-[20rem] h-72 rounded-3xl cursor-pointer"
+          onClick={() => {
+            window.open("https://issuu.com/shubh1508/docs/50_mb_prot", "_blank");
+          }}
         />
       <div className='flex gap-2'><button
           className="hover:bg-gray-900 border bg-slate-800 border-white text-white text-sm md:text-lg py-2 mr-3 px-3 rounded-xl mt-10"
