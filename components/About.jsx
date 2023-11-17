@@ -11,17 +11,18 @@ function About() {
     return (
         <>
             
-            <div className="min-h-screen flex justify-center items-center  " id="about-section">
+            <div className="min-h-screen flex justify-center items-center bg-[#f7f7f7] py-8 md:py-1" id="about-section">
                 
-                <div className="container mx-auto px-4 md:px-14 " >
+                <div className="container mx-auto px-4 md:px-5 " >
                     <div className="flex flex-col md:flex-row ">
-                        <div className="md:w-1/2 md:pr-14" >
+                        <div className="md:w-1/2 md:pr-10" >
                             <img
-                                src="https://i.ibb.co/fSgSKps/Architect.gif"
+                                src="/aboutp.jpg"
                                 alt="About Me"
+                                className='pt-8'
                             />
                         </div>
-                        <div className="md:w-1/2 md:pl-20 mt-8 md:mt-10 text-center md:text-left" >
+                        <div className="md:w-1/2 md:pl-10 mt-8  text-center md:text-left" >
                             <h2 className="text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 mb-7">About Me</h2>
                            
                             <p className="text-gray-700 text-lg">
